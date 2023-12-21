@@ -249,5 +249,12 @@
   right: 10px;
   cursor: pointer;
 }
+.transparent-image {
+  opacity: 0.6; /* Adjust the value as needed (between 0 and 1) */
+}
 
+
+iframe {
+  aspect-ratio: 1.77;
+}
 
