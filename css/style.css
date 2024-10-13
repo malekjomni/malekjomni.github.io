@@ -149,6 +149,8 @@
 }
 
 .service-item {
+  height: 300px; 
+  object-fit: cover; 
   padding: 30px;
   text-align: center;
   background: var(--secondary);
@@ -250,7 +252,7 @@
   cursor: pointer;
 }
 .transparent-image {
-  opacity: 0.6; /* Adjust the value as needed (between 0 and 1) */
+  opacity: 0.6;
 }
 
 
@@ -258,3 +260,31 @@ iframe {
   aspect-ratio: 1.77;
 }
 
+.portfolio-item img {
+  height: 300px; 
+  object-fit: cover; 
+}
+
+.media-item {
+  height: 200px; 
+  object-fit: cover; 
+  padding: 30px;
+  text-align: center;
+  background: var(--secondary);
+}
+
+.media-item i {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--light);
+  color: var(--primary);
+  transition: .5s;
+}
+
+.media-item:hover i {
+  background: var(--primary);
+  color: var(--light);
+}
